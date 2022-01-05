@@ -7,6 +7,7 @@ body{
 }
 h1 {
     font-size: 40px;
+    padding: 15px 0;
 }
 img{
     max-width: 100%;
@@ -22,6 +23,9 @@ img{
 }
 .header-sec p{
     padding-bottom: 20px;
+    font-size: 18px;
+    color: dimgray;
+    padding-top: 2%;
 }
 .header-sec a{
     text-decoration: none;
@@ -32,9 +36,6 @@ img{
     font-size: 20px;
     font-weight: 600;
     border-radius: 5px;
-}
-.header-sec h1{
-    padding: 15px 0;
 }
 .orange-color{
     color: orange;
@@ -48,11 +49,31 @@ img{
 .container{
     display: flex;
     margin-top: 10%;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .container-sec{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .container-sec img{
-    width: 70%;
+    width: 80%;
+}
+.container-sec p{
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: dimgray;
+    padding-top: 2%;
+}
+.container-sec a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
 }
